@@ -1,0 +1,171 @@
+{
+    "name": "sm",
+    "children": [
+        { 
+            "name": "projects",
+            "children":
+                [
+                    {
+                        "name": "Civic Sinoburbia?",
+                        "children": [],
+                        "imports": [
+                            "sm.SDGS.SDG04.education",
+                            "sm.SDGS.SDG10.immigration",
+                            "sm.SDGS.SDG10.urban",
+                            "sm.SDGS.SDG10.governance",
+                            "sm.SDGS.SDG16.citizen participation"
+                        ]
+                    },
+                    {
+                        "name": "Fashioning Fiji",
+                        "children": [],
+                        "imports": [
+                            "sm.SDGS.SDG08.economic development",
+                            "sm.SDGS.SDG08.small entrepreneurs",
+                            "sm.SDGS.SDG08.medium entrepreneurs",
+                            "sm.SDGS.SDG12.waste recycling",
+                            "sm.SDGS.SDG12.resource reuse",
+                            "sm.SDGS.SDG12.sustainability labelling",
+                            "sm.SDGS.SDG12.resource efficiency"
+                        ]
+                    },
+                    {
+                        "name": "Schooling, Parenting & Ethnicity",
+                        "children": [],
+                        "imports": [
+                            "sm.SDGS.SDG04.education",
+                            "sm.SDGS.SDG04.education policy",
+                            "sm.SDGS.SDG04.educational environment",
+                            "sm.SDGS.SDG04.inclusive education",
+                            "sm.SDGS.SDG04.inclusive education system",
+                            "sm.SDGS.SDG10.immigration"
+                        ]
+                    },
+                    {
+                        "name": "The Geopolitics of Automation",
+                        "children": [],
+                        "imports": [
+                            "sm.SDGS.SDG08.labour market disparities"
+                            , "sm.SDGS.SDG08.labour market institutions"
+                            , "sm.SDGS.SDG09.transborder infrastructures"
+                            , "sm.SDGS.SDG10.economic empowerment"
+                            , "sm.SDGS.SDG10.economic transformation"
+                            , "sm.SDGS.SDG16.civil conflicts"
+                        ]
+                    },
+                    {
+                        "name": "Australia a space-faring nation:",
+                        "children": [],
+                        "imports": [
+                        ]
+                    },
+                    {
+                        "name": "Articulating value in housing cooperatives",
+                        "children": [],
+                        "imports": [
+                            "sm.SDGS.SDG01.social protection"
+                            , "sm.SDGS.SDG11.cities"
+                            , "sm.SDGS.SDG11.housing"
+                            , "sm.SDGS.SDG11.sustainable buildings"
+                        ]
+                    },
+                    {
+                        "name": "Heritage-making among recent migrants in Parramatta",
+                        "children": [],
+                        "imports": [
+                            "sm.SDGS.SDG04.education"
+                            , "sm.SDGS.SDG10.immigration"
+                            , "sm.SDGS.SDG11.cultural heritage"
+                        ]
+                    }
+                ],
+                "imports": ["sm.SDGS"]
+        },
+        {
+            "name": "SDGS",
+            "children": 
+                [
+                    { 
+                        "name": "SDG01", 
+                        "children": [
+                            { "name": "social protection","children": [], "imports": [] }
+                            
+                        ], 
+                        "imports": []
+                    },
+                    { 
+                        "name": "SDG04", 
+                        "children": [
+                            { "name": "education","children": [], "imports": [] },
+                            { "name": "education policy","children": [], "imports": [] },
+                            { "name": "educational environment","children": [], "imports": [] },
+                            { "name": "inclusive education","children": [], "imports": [] },
+                            { "name": "inclusive education system" ,"children": [], "imports": [] }
+                            
+                        ], 
+                        "imports": []
+                    },
+                    { 
+                        "name": "SDG08", 
+                        "children": [
+                            { "name": "economic development","children": [], "imports": [] }
+                            , { "name": "small entrepreneurs","children": [], "imports": [] }
+                            , { "name": "medium entrepreneurs","children": [], "imports": [] }
+                            , { "name": "labour market disparities","children": [], "imports": [] }
+                            , { "name": "labour market institutions","children": [], "imports": [] }
+                        ], 
+                        "imports": []
+                    },
+                    { 
+                        "name": "SDG09", 
+                        "children": [
+                            { "name": "transborder infrastructures","children": [], "imports": [] }
+                        ], 
+                        "imports": []
+                    },
+                    { 
+                        "name": "SDG10", 
+                        "children": [
+                            { "name": "immigration","children": [], "imports": [] }
+                            , { "name": "urban","children": [], "imports": [] }
+                            , { "name": "governance","children": [], "imports": [] }
+                            , { "name": "economic empowerment","children": [], "imports": [] }
+                            , { "name": "economic transformation","children": [], "imports": [] }
+                        ], 
+                        "imports": []
+                    },
+                    { 
+                        "name": "SDG11", 
+                        "children": [
+                            { "name": "cities","children": [], "imports": [] }
+                            , { "name": "housing","children": [], "imports": [] }
+                            , { "name": "sustainable buildings","children": [], "imports": [] }
+                            , { "name": "cultural heritage","children": [], "imports": [] }
+                        ], 
+                        "imports": []
+                    },
+                    { 
+                        "name": "SDG12", 
+                        "children": [
+                            { "name": "waste recycling","children": [], "imports": [] },
+                            { "name": "resource reuse","children": [], "imports": [] },
+                            { "name": "sustainability labelling","children": [], "imports": [] },
+                            { "name": "resource efficiency","children": [], "imports": [] }
+                        ], 
+                        "imports": []
+                    },
+                    { 
+                        "name": "SDG16", 
+                        "children": [
+                            { "name": "citizen participation","children": [], "imports": [] }
+                            , { "name": "civil conflicts","children": [], "imports": [] }
+                        ], 
+                        "imports": []
+                    }
+                    
+                ], 
+                "imports": []
+        }
+    ], 
+    "imports": []
+}
